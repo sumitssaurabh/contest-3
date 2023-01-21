@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <h2>SignUp</h2>
+    <div class="form" id="form">
+      <!-- <form action="/login.html"> -->
+      <!-- <form> -->
+      <label for="name"><b>name</b></label>
+      <input
+        type="text"
+        placeholder="Enter name"
+        name="name"
+        id="name"
+        required
+      />
+      <p id="namePara" style="color: red"></p>
+
+      <label for="email"><b>Email</b></label>
+      <input
+        type="text"
+        placeholder="Enter Email"
+        name="email"
+        id="email"
+        required
+      />
+      <p id="emailPara" style="color: red"></p>
+
+      <label for="psw"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="psw"
+        id="password"
+        required
+      />
+      <p id="passwordPara" style="color: red"></p>
+
+      <label for="confirm-password"><b>Confirm Password</b></label>
+      <input
+        type="password"
+        placeholder="confirm-password"
+        name="confirm-password"
+        id="confirmpassword"
+        required
+      />
+      <p id="confirmpasswordPara" style="color: red"></p>
+
+      <button class="btn" id="submit" onclick="validate()">signup</button>
+      <p id="msg"></p>
+      <!-- </form> -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
